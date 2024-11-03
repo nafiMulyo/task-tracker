@@ -22,7 +22,7 @@ This is a simple command-line interface (CLI) application for managing tasks in 
 **Clone the Repository**
 
    ```bash
-   git clone --depth=1 https://github.com/Aj-Seven/backend-projects
+   git clone --depth=1 https://github.com/yourusername/backend-projects.git
 
    # Navigate to the project Directory
    cd backend-projects/task-cli
@@ -42,7 +42,7 @@ node index.js delete 1
 
 - **Update a Task**
 ```bash
-node index.js update 1 "Drink a Coffee and Do Coding"
+node index.js update 1 "eat hamburger"
 ```
 
 - **Mark Task Status**
@@ -77,9 +77,10 @@ node index.js list done
     "description": "eat pizza",
     "status": "todo",
     "createdAt": "2024-11-03T03:43:01.629Z",
-    "updatedAt": "2024-11-03T03:43:01.630Z",
-    "updateAt": "2024-11-03T04:04:03.736Z"
+    "updatedAt": "2024-11-03T03:43:01.630Z"
   }
 ]
 ```
+
+Credit : https://github.com/Aj-Seven/backend-projects/blob/master/task-tracker/readme.md?plain=1
 > Note: Place the JSON file in the same directory as the task code.
